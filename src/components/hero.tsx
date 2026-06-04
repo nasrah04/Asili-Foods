@@ -1,4 +1,6 @@
+import {Link} from 'react-router-dom'
 import back from '../assets/asili.jpeg'
+
 const Hero = () => {
   return (
   
@@ -15,15 +17,20 @@ const Hero = () => {
       Our menu is carefully crafted using fresh, locally sourced ingredients to create delicious dishes that reflect the rich culinary heritage of Tanzania. 
           </p>
    </div>
+  
    <div className="flex flex-wrap gap-4 mt-6 justify-center">
+      <Link to="/menu">
       <button className="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-800 transition duration-300">
         Explore Menu
       </button>
+      </Link>
+      
 
       <button className="bg-white text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-orange-800 hover:text-white transition duration-300">
         Order Now
       </button>
     </div>
+  
     </div>
 </section>
 

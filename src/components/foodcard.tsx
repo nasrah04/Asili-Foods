@@ -11,8 +11,8 @@ export default function FoodCard({ food }: props) {
         <p className="text-gray-600 mb-4">{food.description}</p>
         <div className="mt-auto flex items-center justify-between">
           <span className="text-lg font-semibold text-orange-500 flex" >Tsh{food.price.toFixed(2)}</span>
-          <button className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-700 transition duration-300">
-            Add to Cart
+          <button className="bg-orange-600 text-white px-5 py-2 rounded-2xl hover:bg-orange-800 transition duration-300">
+            + Add
           </button>
         </div>  
       </div>

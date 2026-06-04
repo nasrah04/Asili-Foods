@@ -14,29 +14,29 @@ export default function WhySection() {
         Tanzania through authentic recipes, fresh ingredients, and
         traditional cooking methods that bring people together.
       </p>
-      <div className="space-y-6">
+      <div className="space-y-2">
         <div className="space-y-2">
-          <h3 className="font-semibold text-xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed">
             1. Fresh Ingredients
           </h3>
-          <p className="text-black">
+          <p className="text-gray-600">
             Locally sourced ingredients for quality and authentic taste.
           </p>
         </div>
 
         <div className="space-y-2">
-          <h3 className="font-semibold text-xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed">
             2. Traditional Recipes
           </h3>
-          <p className="text-black">
+          <p className="text-gray-600">
             Prepared using recipes passed down through generations.
           </p>
 
           <div className="space-y-2">
-          <h3 className="font-semibold text-xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed">
             3. Tanzania Cultural Heritage
           </h3>
-          <p className="text-black">
+          <p className="text-gray-600">
             Experience the diverse flavors of Tanzania.
           </p>
         </div>

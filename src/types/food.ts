@@ -5,6 +5,8 @@ export type Food = {
   description: string;
   price: number;
   image: string;
+  category: "rice" | "ugali" | "snacks"  | "other";
+  featured: boolean;
 
   
 }

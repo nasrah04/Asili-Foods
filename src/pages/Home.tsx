@@ -1,15 +1,15 @@
 
 import PopularFoods from "../components/PopularFoods";
 import WhySection from "../components/whySection"; 
-import Footer from "../components/footer"; 
+import Hero from "../components/hero"; 
 
 export default function Home() {
   return (
     <>
-    
+      <Hero />
       <PopularFoods />
       <WhySection />
-      <Footer />
+      
     </>
   );
 };
