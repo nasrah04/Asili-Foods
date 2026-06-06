@@ -1,4 +1,4 @@
-import Picture from "../assets/food.jpeg";
+import Picture from "../assets/walinyama.png";
 export default function About() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-20">
@@ -33,7 +33,7 @@ export default function About() {
           <img
             src= {Picture}
             alt="Traditional Tanzanian Food"
-            className="w-full h-120 object-cover rounded-2xl shadow-lg"
+            className="w-full h-130 object-cover rounded-full pt-10 "
           />
         </div>
 
