@@ -25,10 +25,15 @@ const Hero = () => {
       </button>
       </Link>
       
-
+<a
+  href="https://wa.me/255760140261 text=Hello%20Asili%20Foods,%20I%20would%20like%20to%20place%20an%20order."
+  target="_blank"
+  rel="noopener noreferrer"
+>
       <button className="bg-white text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-orange-800 hover:text-white transition duration-300">
         Order Now
       </button>
+      </a>
     </div>
   
     </div>
