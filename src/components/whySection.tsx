@@ -16,7 +16,7 @@ export default function WhySection() {
       </p>
       <div className="space-y-2">
         <div className="space-y-2">
-          <h3 className=" text-1xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed text-orange-800">
             1. Fresh Ingredients
           </h3>
           <p className="text-gray-600">
@@ -25,7 +25,7 @@ export default function WhySection() {
         </div>
 
         <div className="space-y-2">
-          <h3 className=" text-1xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed text-orange-800">
             2. Traditional Recipes
           </h3>
           <p className="text-gray-600">
@@ -33,7 +33,7 @@ export default function WhySection() {
           </p>
 
           <div className="space-y-2">
-          <h3 className=" text-1xl leading-relaxed">
+          <h3 className=" text-1xl leading-relaxed text-orange-800 ">
             3. Tanzania Cultural Heritage
           </h3>
           <p className="text-gray-600">
