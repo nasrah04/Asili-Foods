@@ -75,6 +75,10 @@ const Navbar = () => {
       <Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-orange-800">
         Contact
       </Link>
+      
+      <Link to="/cart" className='text-orange-500 hover:bg-orange-700 hover:text-white rounded-full px-5 py-1'>
+  Cart ({cartItems.length})
+</Link>
 
     </div>
   </div>

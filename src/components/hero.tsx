@@ -26,7 +26,7 @@ const Hero = () => {
       </Link>
       
 <a
-  href="https://wa.me/255760140261 text=Hello%20Asili%20Foods,%20I%20would%20like%20to%20place%20an%20order."
+  href="https://wa.me/255760140261"
   target="_blank"
   rel="noopener noreferrer"
 >
